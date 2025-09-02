@@ -1,0 +1,76 @@
+.stylish-input {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 10px 12px;
+  font-size: 15px;
+  transition: all 0.2s ease;
+}
+
+.stylish-input:focus {
+  border-color: #48B7FF;
+  box-shadow: 0 0 6px rgba(13, 110, 253, 0.3);
+  outline: none;
+}
+
+.js-address-form {
+  background: #f9fbfd;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 3px 12px rgba(0,0,0,0.08);
+}
+
+.js-address-form label {
+  font-weight: 500;
+  color: #333;
+}
+
+.js-address-form .form-group {
+  margin-bottom: 16px;
+}
+
+.js-address-form button[type="submit"] {
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-size: 15px;
+}
+.payment-option {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.payment-card {
+  flex: 1;
+  min-width: 180px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.payment-card:hover {
+  border-color: #007bff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.payment-card input[type="radio"] {
+  accent-color: #007bff;
+  transform: scale(1.2);
+}
+
+.payment-card.active {
+  border-color: #007bff;
+  background: #f0f8ff;
+  box-shadow: 0 4px 12px rgba(0,123,255,0.2);
+}
+
+.payment-card label {
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}

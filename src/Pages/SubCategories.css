@@ -1,0 +1,26 @@
+.product-thumb {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.product-thumb:hover {
+  
+  box-shadow: 0 8px 20px rgba(72, 183, 255, 0.3);
+}
+
+.product-thumb .item {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: box-shadow 0.3s;
+}
+
+.product-thumb .caption {
+  transition: background-color 0.3s;
+}
+
+.product-thumb:hover .caption {
+  background-color: #3aa5e6 !important; /* deeper blue on hover */
+}

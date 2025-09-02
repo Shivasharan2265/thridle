@@ -1,0 +1,81 @@
+.price-filter-container {
+  margin-bottom: 20px;
+}
+
+.price-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.price-input-wrapper {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.input-label {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.input-label input {
+  background: #e9e9e9;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 10px;
+  width: 80px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.dash {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.apply-btn {
+  background-color: #41b6ff;
+  border: none;
+  color: white;
+  padding: 10px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: 38px;
+}
+
+.slider-wrapper {
+  position: relative;
+  height: 30px;
+}
+
+.slider-wrapper input[type="range"] {
+  width: 100%;
+  appearance: none;
+  background: transparent;
+  position: absolute;
+  pointer-events: none;
+}
+
+.slider-wrapper input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  pointer-events: all;
+  height: 16px;
+  width: 16px;
+  background: #41b6ff;
+  border-radius: 50%;
+  border: none;
+  margin-top: -5px;
+}
+
+.slider-wrapper input[type="range"]::-webkit-slider-runnable-track {
+  height: 4px;
+  background: #41b6ff;
+  border-radius: 2px;
+}

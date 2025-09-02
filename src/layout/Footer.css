@@ -1,0 +1,27 @@
+.footer-containe {
+  font-size: 13px;
+  color: #BECCD9;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  font-family: sans-serif;
+  text-align: justify;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.social-icons-container a {
+  transition: color 0.3s ease;
+}
+.social-icons-container a:hover {
+  color: #f36; /* highlight on hover */
+}
+

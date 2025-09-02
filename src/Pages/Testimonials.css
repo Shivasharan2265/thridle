@@ -1,0 +1,30 @@
+/* Keep your existing styles and just add the new ones */
+
+.testimonial-carousel .item {
+    transition: all 0.4s ease;
+    opacity: 0.5;
+    transform: scale(0.9);
+  }
+  
+  .testimonial-carousel .owl-item.center .item {
+    opacity: 1;
+    
+   
+    transform: scale(1);
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* Ensure the testimonial image is styled properly */
+  .testimonial-img img {
+  
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 5px;
+    position: relative;
+    z-index: 3;
+  }
+  

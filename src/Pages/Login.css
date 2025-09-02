@@ -1,0 +1,212 @@
+.spinner-border {
+  display: inline-block;
+  text-align: center;
+
+  vertical-align: text-bottom;
+  border: 0.15em solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: spinner-border 0.75s linear infinite;
+}
+
+@keyframes spinner-border {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.d-none {
+  display: none !important;
+}
+
+.invisible {
+  visibility: hidden;
+}
+.fixed-btn {
+  width: 140px; /* fixed width */
+  height: 40px; /* fixed height */
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner-center {
+  margin: 0 auto;
+  display: block;
+}
+
+
+/* General Styles */
+.login-container {
+  font-family: 'Arial', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #333;
+}
+
+/* Header Navigation */
+.login-header {
+  background-color: #fff;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.login-nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.login-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.login-nav a:hover {
+  color: #ff6b6b;
+}
+
+/* Promo Banners */
+.promo-banners {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+
+.promo-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  min-width: 250px;
+}
+
+.promo-icon {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.promo-subtext {
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
+
+/* Login Form */
+.login-form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.login-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.login-form-card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #48B7FF;
+}
+
+.error-message {
+  color: #48B7FF;
+  font-size: 14px;
+  margin-top: 5px;
+  display: block;
+}
+
+.login-button {
+  width: 100%;
+  padding: 14px;
+  background-color: #48B7FF;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.login-button:hover {
+  background-color: #EB4D7F;
+}
+
+.login-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.spinner {
+  display: inline-block;
+
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: white;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .login-nav {
+    gap: 15px;
+  }
+  
+  .promo-banners {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-form-card {
+    padding: 20px;
+  }
+}
